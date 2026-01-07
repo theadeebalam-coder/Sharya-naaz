@@ -1,0 +1,85 @@
+body{
+  margin:0;
+  font-family:'Poppins',sans-serif;
+  background:#f6f1e9;
+  color:#4a3f35;
+}
+
+.hero{
+  min-height:100vh;
+  background:linear-gradient(
+    rgba(246,241,233,0.85),
+    rgba(246,241,233,0.85)
+  ),
+  url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6") center/cover no-repeat;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:40px;
+}
+
+.hero-text h1{
+  font-family:'Great Vibes',cursive;
+  font-size:4rem;
+}
+
+.hero-text h2{
+  font-family:'Playfair Display',serif;
+  font-size:2rem;
+  margin-top:10px;
+}
+
+.hero-text p{
+  max-width:600px;
+  margin:20px auto;
+  line-height:2;
+}
+
+button{
+  background:#6b8f71;
+  color:#fff;
+  border:none;
+  padding:14px 36px;
+  border-radius:30px;
+  font-size:16px;
+  cursor:pointer;
+}
+
+#songBox{
+  display:none;
+  text-align:center;
+  padding:40px;
+  background:#e9dfd2;
+}
+
+#ytSong{
+  width:90%;
+  max-width:560px;
+  height:315px;
+  border:none;
+  border-radius:12px;
+}
+
+.content{
+  padding:80px 12%;
+  text-align:center;
+}
+
+.content h3{
+  font-family:'Playfair Display',serif;
+  font-size:2rem;
+  margin-bottom:30px;
+}
+
+.content p{
+  margin-bottom:25px;
+  line-height:2;
+}
+
+footer{
+  text-align:center;
+  padding:30px;
+  background:#d8cfc4;
+  font-size:14px;
+}
