@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday Ammi | Sharya Naaz</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <h1>Happy Birthday Ammi</h1>
+    <h2>Sharya Naaz</h2>
+    <p>
+      Aaj ka din sirf birthday nahi hai,  
+      aaj wo din hai jab duniya ko ek maa mili thi  
+      jo bina shart pyaar karna jaanti hai.
+    </p>
+
+    <button onclick="playSong()">▶ Play Song</button>
+  </div>
+</section>
+
+<!-- SONG (YOUTUBE ONLY) -->
+<div id="songBox">
+  <iframe id="ytSong"
+    src=""
+    allow="autoplay; encrypted-media"
+    allowfullscreen>
+  </iframe>
+</div>
+
+<!-- CONTENT -->
+<section class="content">
+  <h3>A Letter From The Heart</h3>
+  <p>
+    Ammi, aapki har muskaan meri taqat hai.  
+    Aapka har sabr meri jeet.  
+    Jab duniya thak jaati hai,  
+    maa ka pyaar kabhi nahi thakta.
+  </p>
+
+  <p>
+    Aap wo dua ho jo bina maange qabool ho gayi.  
+    Aap wo roshni ho jo andheron mein bhi raasta dikha de.
+  </p>
+
+  <p>
+    “Tu kitni achhi hai” sirf ek gaana nahi,  
+    ye har us maa ki kahaani hai  
+    jo khud se pehle apne bachchon ko rakhti hai.
+  </p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>
+    Developed by <strong>Adeeb Alam</strong><br>
+    Date: <strong>07 January 2026</strong>
+  </p>
+</footer>
+
+<script>
+function playSong(){
+  document.getElementById("songBox").style.display = "block";
+  document.getElementById("ytSong").src =
+    "https://www.youtube.com/embed/4zD1R4V7J1s?autoplay=1";
+}
+</script>
+
+</body>
+</html>
